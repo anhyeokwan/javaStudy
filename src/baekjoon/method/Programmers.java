@@ -129,6 +129,7 @@ public class Programmers {
 		int answer = 0;
 		
 		System.out.println(Arrays.toString(array));
+		System.out.println("소스트리 확인");
 		
 		return answer;
 		
