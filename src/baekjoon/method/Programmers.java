@@ -153,9 +153,29 @@ public class Programmers {
 	
 	public String solution8(String my_String) {
 		String answer = "";
-		System.out.println("1");
-		System.out.println("2");
-		System.out.println("3");
+		
+		// 문자열을 소문자로 바꾸는 코드
+		String small = my_String.toLowerCase();
+		System.out.println("소문자로 바뀜?? : " + small);
+		
+		// 문자열의 길이만큼 배열
+		int[] arr = new int[small.length()];
+		
+		// 배열에 문자열의 문자를 아스키코드로 변환해서 담기
+		for(int i = 0; i < small.length(); i++) {
+			System.out.println(small.charAt(i) + " : " + (int)small.charAt(i));
+			arr[i] = (int)small.charAt(i);
+		}
+		
+		// 배열 정렬
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+		
+		// 정렬된 배열을 다시 아스키코드로 변환해서 문자로 변환해서 문자열로 붙이기
+		for(int i = 0; i < arr.length; i++) {
+			answer += (char)arr[i];
+		}
+		
 		return answer;
 	}
 	

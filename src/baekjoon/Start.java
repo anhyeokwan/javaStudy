@@ -19,7 +19,8 @@ public class Start {
 		int[] array = {7, 17, 77};
 		//System.out.println(Arrays.toString(pg.solution3(5, 5)));
 //		System.out.println(Arrays.toString(pg.solution6("abc1Addfggg4556b", 6))); 
-		System.out.println(pg.solution7(array));
+//		System.out.println(pg.solution7(array));
+		System.out.println(pg.solution8("BCDA"));
 		
 //		Overloading ol = new Overloading();
 //		System.out.println("ol.overloadingOne()의 값 : " + ol.overloadingOne());
