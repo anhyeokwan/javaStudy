@@ -151,6 +151,12 @@ public class Programmers {
 		
 	}
 	
+	public String solution8(String my_String) {
+		String answer = "";
+		
+		return answer;
+	}
+	
 }
 
 
