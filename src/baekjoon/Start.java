@@ -16,7 +16,7 @@ public class Start {
 //		arr.lotto();
 		
 		Programmers pg = new Programmers();
-		int[] array = {7,77,777,7777};
+		int[] array = {7, 17, 77};
 		//System.out.println(Arrays.toString(pg.solution3(5, 5)));
 //		System.out.println(Arrays.toString(pg.solution6("abc1Addfggg4556b", 6))); 
 		System.out.println(pg.solution7(array));

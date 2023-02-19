@@ -128,8 +128,24 @@ public class Programmers {
 	public int solution7(int[] array) {
 		int answer = 0;
 		
-		System.out.println(Arrays.toString(array));
-		System.out.println("소스트리 확인");
+		// 배열을 문자열로 바꿈
+		String array1 = Arrays.toString(array);
+		
+		// ","를 기준으로 문자열을 다시 배열로 나눔
+		String[] arr = array1.split(",");
+		
+		// 배열 요소를 다시 문자열로 더함
+		StringBuilder sb = new StringBuilder();
+		for(int i = 0; i < array1.split(",").length; i++) {
+			sb.append(arr[i]);
+		}
+		
+		// 특정문자 개수 세는 코드
+		for(int i = 0; i < sb.length(); i++) {
+			if(sb.charAt(i) == '7') {
+				answer++;
+			}
+		}
 		
 		return answer;
 		
