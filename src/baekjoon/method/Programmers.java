@@ -179,6 +179,18 @@ public class Programmers {
 		return answer;
 	}
 	
+	public int solution9(int n, int t) {
+		int answer = 1;
+		
+		for(int i = 1; i <= t; i++) {
+			answer = n * (i + n);
+		}
+		
+		System.out.println((int)Math.pow(n, t));
+		
+		return answer;
+	}
+	
 }
 
 
