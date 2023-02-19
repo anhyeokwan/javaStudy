@@ -153,7 +153,8 @@ public class Programmers {
 	
 	public String solution8(String my_String) {
 		String answer = "";
-		System.out.println("");
+		System.out.println("1");
+		System.out.println("2");
 		return answer;
 	}
 	
